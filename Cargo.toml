@@ -1,0 +1,15 @@
+[package]
+name = "address-literal"
+version = "0.1.0"
+authors = ["Guanqun Lu <guanqunlu@outlook.com>"]
+edition = "2018"
+license = "MIT OR Apache-2.0"
+description = "Procedural macro for converting Address(H160) literals to Address(H160) at compile time."
+keywords = ["ethereum", "proc-macro", "literals"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = "1.0"
+primitive-types = "0.9"
