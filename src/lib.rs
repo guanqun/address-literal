@@ -13,7 +13,7 @@ pub fn addr(input: TokenStream) -> TokenStream {
         .into_iter()
         .map(|b| format!("{}u8", b))
         .collect();
-    format!("primitive_types::H160::from([{}])", bytes.join(","))
+    format!("primitive_types::H160([{}])", bytes.join(","))
         .parse()
         .unwrap()
 }
