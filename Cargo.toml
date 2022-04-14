@@ -12,4 +12,4 @@ proc-macro = true
 
 [dependencies]
 syn = "1.0"
-primitive-types = "0.10"
+primitive-types = "0.11"
