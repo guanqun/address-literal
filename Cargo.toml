@@ -12,4 +12,4 @@ proc-macro = true
 
 [dependencies]
 syn = "1.0"
-primitive-types = { version = "0.11.1", default-features = false, features = ["rustc-hex"] }
+primitive-types = { version = "0.12.0", default-features = false, features = ["rustc-hex"] }
